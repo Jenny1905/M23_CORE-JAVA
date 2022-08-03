@@ -33,6 +33,7 @@ class Pulser
 public class ParameterizedConstructors {
 
 	public static void main(String[] args) {
+		@SuppressWarnings("unused")
 		Pulser p=new Pulser();
 		Pulser p1=new Pulser(45,"Red");
 		p1.accept();
