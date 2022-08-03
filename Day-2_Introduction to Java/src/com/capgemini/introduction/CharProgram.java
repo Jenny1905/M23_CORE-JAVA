@@ -14,6 +14,7 @@ public class CharProgram {
 		//run-time input
 		char x=s.next().charAt(1);
 		System.out.println("The character is : "+x);
+		s.close();
 
 	}
 
