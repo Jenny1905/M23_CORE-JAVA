@@ -1,6 +1,4 @@
 package com.cg.oops;
-
-
 class Pulser
 {
 	//class var
