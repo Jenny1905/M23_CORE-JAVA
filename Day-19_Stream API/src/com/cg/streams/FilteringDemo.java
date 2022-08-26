@@ -6,6 +6,7 @@ import java.util.List;
 public class FilteringDemo {
 
 	public static void main(String[] args) {
+		//passing values using collection and Arrays class
 		List<Integer>obj=Arrays.asList(5,11,22,33,5,44);
 		//filter(predicate)method
 		obj.stream().filter(i->i>25).forEach((i)->System.out.print(i+" "));
