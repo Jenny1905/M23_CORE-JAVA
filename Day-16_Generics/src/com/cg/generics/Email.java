@@ -3,6 +3,7 @@ package com.cg.generics;
 public class Email 
 {
 	//email format
+	//private variables
 	private String from;
 	private String to;
 	private String subject;

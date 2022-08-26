@@ -13,7 +13,9 @@ public class GenericMethodExample
 	}
 
 	public static void main(String[] args) {
+		//Integer Array
 		Integer[] arr1= {10,20,30};
+		//chracter array
 		Character [] arr2= {'z','x','a'};
 		System.out.println("Printing array for Integer");
 		printArray(arr1);
