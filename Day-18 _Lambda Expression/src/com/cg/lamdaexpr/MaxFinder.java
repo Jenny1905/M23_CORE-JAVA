@@ -1,7 +1,9 @@
 package com.cg.lamdaexpr;
+
 @FunctionalInterface
 public interface MaxFinder 
 {
-	public int maximum(int a,int b);//abstract method
+	//anstract method
+	public int maximum(int a,int b);
 
 }
